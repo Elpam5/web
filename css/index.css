@@ -1,0 +1,173 @@
+*{margin: 0;padding: 0;}
+@font-face {
+    font-family: fzxjl;
+    src: url(font/FZXiJinLJW.TTF);
+}
+li
+{
+    list-style: none;
+}
+body
+{
+    background-color:azure; /*网页背景颜色*/
+}
+a
+{
+    color: black;
+}
+a:hover
+{
+    color: blue;
+}
+.title_1
+{
+    width: 100%;height: 50px;
+    background-color:ivory; 
+}
+.title_1 .ynu
+{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.title_1 .ynu p/*左上角学校标识*/
+{
+    font-family:宋体;
+    text-align:left;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    padding-left: 10px;
+}  
+.title_2 /*主标题*/
+{
+    font-family: fzxjl;
+    text-align: center;
+    color:black;
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight:normal;
+}
+.box_1
+{
+    width: 1000px;
+    height: 700px;
+    background-color:;
+    margin: 0 auto;
+}
+.title_3 /*左侧板块*/
+{
+    width: 400px;
+    height: 600px;
+    background-color:;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+.title_3>p
+{
+    font-family: 宋体;
+    color:black;
+    font-size: 40px;
+    border-left: 5px solid gray;
+    margin-left: 15px;
+    padding-left: 10px;
+}
+.main_picture 
+{
+    width: 500px;
+    height: 310px;
+    float: right;
+    background-color: ;
+    margin-top: 10px;
+}
+.main_picture img /*右侧主视觉图*/
+{
+    width: 500px;
+    height: 310px;
+}
+.areaintro
+{
+    width: 500px;
+    height: 250px;
+    background-color:;
+    float: right;
+    margin-top: 30px;
+}
+.areaintro li
+{
+    float: left;
+    width: 220px;
+    height: 250px;
+    background-color:ivory;
+    margin-right: 0px;
+}
+.areaintro img
+{
+    width: 220px;
+    height: 200px;
+}
+.areaintro p
+{
+    text-align: center;
+    font-family: 宋体;
+    font-size: 25px;
+    margin-top: 6px;
+    display: block;
+}
+.last
+{
+    margin-left: 60px;
+}
+.areachar
+{
+    width: 360px;
+    height: 500px;
+    background-color:;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.areachar li
+{
+    width: 360px;
+    height: 120px;
+    background-color:ivory;
+    margin-bottom: 50px;
+}
+.areachar img
+{
+    height: 100%;
+}
+.areachar li p
+{
+    display: inline-block;
+    font-size: 25px;
+    font-family: 宋体;  
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.areachar li span1
+{
+    font-size: 18px;
+    font-family: 宋体;
+    display: block;
+    margin-top: -12px;
+    margin-left: 8px;
+}
+.areachar li span2
+{
+    font-size: 18px;
+    font-family: 宋体;
+    display: block;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.areachar li span3
+{
+    font-size: 18px;
+    font-family: 宋体;
+    display:block;
+    margin-top: 10px;
+    margin-left: 8px;
+}

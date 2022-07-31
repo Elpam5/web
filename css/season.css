@@ -1,0 +1,117 @@
+*{margin: 0;padding: 0;}
+@font-face {
+    font-family: fzxjl;
+    src: url(font/FZXiJinLJW.TTF);
+}
+li
+{
+    list-style: none;
+}
+body
+{
+    background-color:azure; /*网页背景颜色*/
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: blue;
+}
+.title_1
+{
+    width: 100%;height: 50px;
+    background-color:ivory; 
+}
+.title_1 .ynu
+{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.title_1 .ynu p/*左上角学校标识*/
+{
+    font-family:宋体;
+    text-align:left;
+    font-size: 20px;
+    color: black;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.title_1 .back
+{
+    height: 30px;
+    width: 50px;
+    background-color:;
+    float: right;
+    margin-top: 9px;
+    margin-right: 30px;
+}
+.title_1 .back p
+{
+    font-family:宋体;
+    text-align:left;
+    font-size: 20px;
+    text-align: center;
+    padding: 4px;
+}   
+.box_1
+{
+    width: 1000px;
+    height: 700px;
+    background-color:;
+    margin: 0 auto;
+}
+.title_2 p
+{
+    font-family: fzxjl;
+    text-align:center;
+    color:black;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight:normal;    
+}
+.title_2 .jieshao
+{
+    width: 980px;
+    height: auto;
+    margin: auto;
+    background-color:;
+}
+.title_2 .jieshao p
+{
+    font-family: 宋体;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    text-indent: 1cm;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.poster
+{
+    width: 1000px;
+    height: 400px;
+    background-color: ;
+    margin: auto;
+    margin-top: 60px;
+}
+.poster li
+{
+    width: 200px;
+    height: 400px;
+    background-color: bisque;
+    float: left;
+    margin-right: 66.6px;
+}
+.poster .last
+{
+    margin-right: 0px;
+}
+.poster img
+{
+    width: 100%;
+    height: auto;
+}
