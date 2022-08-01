@@ -78,17 +78,15 @@ a:hover
     width: 500px;
     height: 310px;
     float: right;
-    background-color: ;
     margin-top: 10px;    
     display: flex;
     justify-content: center;
-    overflow: none;
+    overflow: hidden;
 }
 .main_picture img /*右侧主视觉图*/
 {
     width: 500px;
     height: 310px;
-    position: absolute;
     transition: 0.5s;
 }
 .areaintro
@@ -176,9 +174,7 @@ a:hover
     margin-top: 10px;
     margin-left: 8px;
 }
-.main_picture img:hover
+img:hover
 {
-    width: 620px;
-    height: 350px;
-    
+    transform: scale(1.2);
 }
