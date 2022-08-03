@@ -79,8 +79,6 @@ a:hover
     height: 310px;
     float: right;
     margin-top: 10px;    
-    display: flex;
-    justify-content: center;
     overflow: hidden;
 }
 .main_picture img /*右侧主视觉图*/
@@ -104,6 +102,7 @@ a:hover
     height: 250px;
     background-color:ivory;
     margin-right: 0px;
+    
 }
 .areaintro img
 {
@@ -139,7 +138,9 @@ a:hover
 }
 .areachar img
 {
-    height: 100%;
+    height: 120px;
+    width: 120px;
+    transition: 0.5s;
 }
 .areachar li p
 {
@@ -177,4 +178,11 @@ a:hover
 img:hover
 {
     transform: scale(1.2);
+}
+.picture_1
+{
+    width: 120px;
+    height: 120px; 
+    display: inline-block;
+    overflow: hidden;
 }
