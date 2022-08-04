@@ -101,10 +101,14 @@ a:hover
 .poster li
 {
     width: 200px;
-    height: 400px;
+    height: 425px;
     background-color: bisque;
     float: left;
     margin-right: 66.6px;
+}
+.poster a:hover img
+{
+    transform: scale(1.1);
 }
 .poster .last
 {
@@ -114,4 +118,20 @@ a:hover
 {
     width: 100%;
     height: auto;
+    transition: 0.5s;
+}
+.picture_1
+{
+    width: 200px;
+    height: 400px;
+    background-color: bisque;
+    float: left;
+    margin-right: 66.6px;
+    overflow: hidden;
+}
+.poster span
+{
+    font-family: 宋体;
+    font-size: 20px;
+    color: black;
 }

@@ -59,8 +59,8 @@ a:hover
 }
 .box_1
 {
-    width: 960px;
-    height: 720px;
+    width: 1000px;
+    height: 650px;
     margin: 0 auto;
     background-color: ;
 }
@@ -77,68 +77,156 @@ a:hover
 .xianlu
 {
     margin-top: 10px;
-    width: 450px;
-    height: 650px;
+    width: 750px;
+    height: 350px;
     background-color: ;
     float: left;
     margin-left: 0px;
+
 }
 .xianlu img
 {
-    width: 450px;
+    width: 650px;
     height: 100%;
 }
-.jingdian_js
+.jijie_js
 {
     margin-top: 10px;
-    width: 450px;
+    width: 250px;
     height: 450px;
     float: right;
     background-color:;
     margin-right: 0px;
 }
-.jingdian_js li
+.jijie_js li
 {
-    height: 120px;
-    width: 450px;
+    height: 100px;
+    width: 300px;
     background-color:ivory;
-    margin-bottom: 12px;
+    margin-bottom: 40px;
 }
-.jingdian_js img
+.jijie_js img
 {
     height: 100%;
+    width: 100px;
+    transition: 0.5s;
 }
-.jingdian_js li p
+.jijie_js li p
 {
     display: inline-block;
     font-size: 25px;
     font-family: 宋体;  
     vertical-align: top;
     margin-top: 20px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
-.jingdian_js li span1
+.jijie_js li span1
 {
     font-size: 18px;
     font-family: 宋体;
 }
-.jingdian_js li span2
+.jijie_js li span2
 {
     font-size: 18px;
     font-family: 宋体;
 }
-.jingdian_js li span3
+.jijie_js li span3
 {
     font-size: 18px;
     font-family: 宋体;
 }
-.jingdian_js li span4
+.jijie_js li span4
 {
     font-size: 18px;
     font-family: 宋体;
 }
-.jingdian_js li span5
+.picture_1
 {
-    font-size: 18px;
-    font-family: 宋体;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.jijie_js a:hover img
+{
+    transform: scale(1.1);
+}
+.jingdian_1
+{
+    width: 300px;
+    height: 190px;
+    float: left;
+    background-color: ivory;
+    margin-top: 30px;
+}
+.jingdian_2
+{
+    width: 300px;
+    height: 190px;
+    float: left;
+    background-color: ivory;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.picture_2
+{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.picture_2 img
+{
+    width: 300px;
+    height: 150px;
+    transition: 0.5s;
+}
+.jingdian_1:hover img
+{
+    transform: scale(1.1);
+}
+.jingdian_2:hover img
+{
+    transform: scale(1.1);
+}
+.jingdian_1 p
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 宋体;  
+    margin-top: 5px;
+}
+.jingdian_2 p
+{
+    text-align: center;
+    font-size: 25px;
+    font-family: 宋体;  
+    margin-top: 5px;
+}
+.jingdian_1:hover .picture_2
+{
+    width: 300px;
+    height: 145px;
+}
+.jingdian_1:hover .write
+{
+    width: 300px;
+    height: 5px;
+}
+.jingdian_2:hover .picture_2
+{
+    width: 300px;
+    height: 145px;
+}
+.jingdian_2:hover .write
+{
+    width: 300px;
+    height: 5px;
+}
+.write
+{
+    width: 300px;
+    height: 0px;
+    background-color: rgba(255, 192, 1, 0.5);
+    transition: 0.5s;
 }
