@@ -57,3 +57,73 @@ a:hover
     text-align: center;
     padding: 4px;
 }    
+.box_1
+{
+    width: 1000px;
+    height: 700px;
+    background-color:;
+    margin: 0 auto;
+}
+.title_2
+{
+    width: 1000px;
+    height: 130px;
+    background-color: ;
+}
+.title_2 p
+{
+    font-family: fzxjl;
+    text-align:center;
+    color:black;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight:normal;
+    letter-spacing: 30px; 
+}
+.box_2
+{
+    width: 1000px;
+    height: 570px;
+    background-color: ;
+}
+.meishi_1,.meishi_4
+{
+    width: 260px;
+    height: 250px;
+    background-color: ivory;
+    float: left;
+    margin-bottom: 40px;
+}
+.meishi_2,.meishi_5
+{
+    width: 260px;
+    height: 250px;
+    background-color: ivory;
+    float: left;
+    margin-left: 110px;
+    margin-bottom: 40px;
+}
+.meishi_3,.meishi_6
+{
+    width: 260px;
+    height: 250px;
+    background-color: ivory;
+    float: right;
+    margin-bottom: 40px;
+}
+.picture_1
+{
+    width: 260px;
+    height: 200px;
+    overflow: hidden;
+}
+.picture_1 img
+{
+    width: 260px;
+    height: 200px;
+    transition: 0.5s;
+}
+.picture_1 img:hover
+{
+    transform: scale(1.1);
+}
