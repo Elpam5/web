@@ -48,12 +48,13 @@ a:hover
     font-size: 50px;
     font-weight:normal;
 }
-.box_1
+.box_1 
 {
     width: 1000px;
-    height: 700px;
+    height: 695px;
     background-color:;
     margin: 0 auto;
+    margin-top: 15px;
 }
 .title_3 /*左侧板块*/
 {
@@ -200,10 +201,10 @@ a:hover
 {
     transform: scale(1.1);
 }
-.areachar a:hover img
+/* .areachar a:hover img
 {
     transform: scale(1.1);
-}
+} */
 .areaintro a:hover img
 {
     transform: scale(1.1);
@@ -224,4 +225,8 @@ a:hover
     height: 0px;
     background-color: rgba(255, 192, 1, 0.5);
     transition: 0.5s;
+}
+a:hover p
+{
+    text-decoration: underline;
 }

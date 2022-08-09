@@ -20,6 +20,10 @@ a:hover
 {
     color: blue;
 }
+a:hover p
+{
+    text-decoration: underline;
+}
 .title_1
 {
     width: 100%;height: 50px;
@@ -60,14 +64,15 @@ a:hover
 .box_1
 {
     width: 1000px;
-    height: 700px;
+    height: 695px;
     background-color:;
     margin: 0 auto;
+    margin-top: 15px;
 }
 .title_2
 {
     width: 1000px;
-    height: 130px;
+    height: 125px;
     background-color: ;
 }
 .title_2 p
@@ -86,7 +91,7 @@ a:hover
     height: 570px;
     background-color: ;
 }
-.meishi_1,.meishi_4
+.meishi_1
 {
     width: 260px;
     height: 250px;
@@ -94,7 +99,7 @@ a:hover
     float: left;
     margin-bottom: 40px;
 }
-.meishi_2,.meishi_5
+.meishi_2
 {
     width: 260px;
     height: 250px;
@@ -103,13 +108,35 @@ a:hover
     margin-left: 110px;
     margin-bottom: 40px;
 }
-.meishi_3,.meishi_6
+.meishi_3
 {
     width: 260px;
     height: 250px;
     background-color: ivory;
     float: right;
     margin-bottom: 40px;
+}
+.meishi_4
+{
+    width: 260px;
+    height: 250px;
+    background-color: ivory;
+    float: left;
+}
+.meishi_5
+{
+    width: 260px;
+    height: 250px;
+    background-color: ivory;
+    float: left;
+    margin-left: 110px;
+}
+.meishi_6
+{
+    width: 260px;
+    height: 250px;
+    background-color: ivory;
+    float: right;
 }
 .picture_1
 {
@@ -123,7 +150,7 @@ a:hover
     height: 200px;
     transition: 0.5s;
 }
-.picture_1 img:hover
+/* .picture_1 img:hover
 {
     transform: scale(1.1);
-}
+} */

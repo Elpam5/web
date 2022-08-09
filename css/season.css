@@ -60,9 +60,10 @@ a:hover
 .box_1
 {
     width: 1000px;
-    height: 700px;
+    height: 650px;
     background-color:;
     margin: 0 auto;
+    margin-top: 15px;
 }
 .title_2 p
 {
@@ -101,7 +102,7 @@ a:hover
 .poster li
 {
     width: 200px;
-    height: 425px;
+    height: 400px;
     background-color: bisque;
     float: left;
     margin-right: 66.6px;
@@ -129,9 +130,7 @@ a:hover
     margin-right: 66.6px;
     overflow: hidden;
 }
-.poster span
+a:hover p
 {
-    font-family: 宋体;
-    font-size: 20px;
-    color: black;
+    text-decoration: underline;
 }
