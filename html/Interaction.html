@@ -13,13 +13,22 @@
     <body>
         <div class="speak">
             <div class="speakbox">
-                <p>发表你的留言：</p>
-                <div class="shuru">
-                    <input class="neirong" style="width: 800px;"/>
+                <div class="shurubox">
+                    <p>发表你的留言：</p>
+                    <div class="shuru">
+                        <input class="neirong" style="width: 600px;"/>
+                    </div>
+                </div>
+                <div class="shurubox">
+                    <p>署名：</p>
+                    <div class="shuru">
+                        <input class="shuming" style="width: 100px;"/>
+                    </div>
                 </div>
                 <div class="send">
                     <button class="fs">发送</button>
                 </div>
+                
             </div>
         </div>
         <div class="title_1">
@@ -44,36 +53,49 @@
     <script src="../jQuery/jQuery 3.6.0.js"></script>
     <script>
         $(".fs").click(function(){
-            var text=$(".neirong").text();
-            if(text.length!=0) 
+            var text1=$(".neirong").val();
+            var text2=$(".shuming").val();
+            var data={};
+            data.content=text1;
+            data.publisher_name=text2;
+            if(text1.length!=0&&text2.length!=0) 
             {
                 $.ajax({
                     type: "post",
-                    url: "",
-                    data: text,
+                    url: "后端路径",
+                    data: JSON.stringify(data),
                     success: function(data){
                         alert("发送成功！");
+                        location.reload();
                     },
                     error: function(data){
                         alert("发送失败！");
                     }
                 });
             }
-            else 
+            else if(text1.length==0)
             {
                 alert("请输入内容！");
             }
+            else 
+            {
+                alert("请输入署名！");
+            }
         });
-        $("body").load(function(){
+        $(window).on("load",function(){
             $.ajax({
                 type: "get",
-                url: "",
+                url: "后端路径",
                 success: function(data){
                     var ul=$("ul");
-                    for(var i=0;i<data.length;i++)
+                    for(var i=0;i<data.data.length;i++)
                     {
-                        var message=date[i];
-                        var li="<li>留言"+(i+1)+":"+message+"</li>";
+                        var message=data.data[i].content;
+                        var name=data.data[i].publisher_name;
+                        var time=data.data[i].publish_time;
+                        var p1="<p>留言"+(i+1)+":"+message+"</p>";
+                        var p2="<p stlye='text-align: right;font-size: 20px;'>——"+name+"&nbsp"+time+"</p>";
+                        var li="<li>"+p1+p2+"</li>";
                         ul.append(li);
                     }
                 },
