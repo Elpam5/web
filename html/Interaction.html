@@ -11,6 +11,17 @@
         </style>
     </head>
     <body>
+        <div class="speak">
+            <div class="speakbox">
+                <p>发表你的留言：</p>
+                <div class="shuru">
+                    <input class="neirong" style="width: 800px;"/>
+                </div>
+                <div class="send">
+                    <button class="fs">发送</button>
+                </div>
+            </div>
+        </div>
         <div class="title_1">
             <div class="ynu">
                 <p>云南大学</p>
@@ -21,5 +32,55 @@
                 </a>
             </div>
         </div>
+        <div class="box_1">
+            <div class="title_2">
+                <p>交流互动栏目</p>
+            </div>
+            <ul>
+            </ul>   
+        </div>
+        
     </body>
+    <script src="../jQuery/jQuery 3.6.0.js"></script>
+    <script>
+        $(".fs").click(function(){
+            var text=$(".neirong").text();
+            if(text.length!=0) 
+            {
+                $.ajax({
+                    type: "post",
+                    url: "",
+                    data: text,
+                    success: function(data){
+                        alert("发送成功！");
+                    },
+                    error: function(data){
+                        alert("发送失败！");
+                    }
+                });
+            }
+            else 
+            {
+                alert("请输入内容！");
+            }
+        });
+        $("body").load(function(){
+            $.ajax({
+                type: "get",
+                url: "",
+                success: function(data){
+                    var ul=$("ul");
+                    for(var i=0;i<data.length;i++)
+                    {
+                        var message=date[i];
+                        var li="<li>留言"+(i+1)+":"+message+"</li>";
+                        ul.append(li);
+                    }
+                },
+                error: function(data){
+                    alert("数据请求失败！");
+                }
+            });
+        });
+    </script>
 </html>

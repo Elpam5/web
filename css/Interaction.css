@@ -20,6 +20,10 @@ a:hover
 {
     color: blue;
 }
+a:hover p
+{
+    text-decoration: underline;
+}
 .title_1
 {
     width: 100%;height: 50px;
@@ -57,3 +61,76 @@ a:hover
     text-align: center;
     padding: 4px;
 }    
+.box_1
+{
+    width: 1000px;
+    height: 200px;
+    background-color:;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.title_2 p
+{
+    font-family: fzxjl;
+    text-align:center;
+    color:black;
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight:normal;    
+}
+.speak{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;    
+    bottom: 0px;
+    /* margin:0 auto;
+    left:0;
+    right:0;     */
+
+}
+.speakbox
+{
+    width: 900px;
+    margin:0 auto;
+    left:0;
+    right:0;    
+}
+.shuru{
+    height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.send{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 835px;
+    margin-top: -45px;
+}
+.fs{
+    height: 30px;
+    background-color: rgb(219, 137, 83);
+    color: white;
+    width: 100px;
+    margin-top: 15px;
+}
+.fs:active
+{
+    background-color: rgb(173, 57, 3);
+}
+li
+{
+    border: 1px solid black;
+    background-color: white;
+    height: 60px;    
+    margin-top: 30px;
+}
+li p
+{
+    font-size: 40px;
+    font-family: 宋体;  
+    vertical-align: top;
+    margin-left: 30px;
+}
