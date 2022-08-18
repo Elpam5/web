@@ -63,7 +63,7 @@ a:hover p
 }    
 .box_1
 {
-    width: 1000px;
+    width: 1100px;
     height: 695px;
     background-color:;
     margin: 0 auto;
@@ -71,7 +71,7 @@ a:hover p
 }
 .title_2
 {
-    width: 1000px;
+    width: 1100px;
     height: 125px;
     background-color: ;
 }
@@ -87,68 +87,51 @@ a:hover p
 }
 .box_2
 {
-    width: 1000px;
+    width: 1100px;
     height: 570px;
     background-color: ;
 }
 .meishi_1
 {
-    width: 260px;
-    height: 250px;
+    width: 500px;
+    height: 381.25px;
     background-color: ivory;
     float: left;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .meishi_2
 {
-    width: 260px;
-    height: 250px;
+    width: 500px;
+    height: 381.25px;
     background-color: ivory;
     float: left;
-    margin-left: 110px;
-    margin-bottom: 40px;
-}
-.meishi_3
-{
-    width: 260px;
-    height: 250px;
-    background-color: ivory;
-    float: right;
-    margin-bottom: 40px;
-}
-.meishi_4
-{
-    width: 260px;
-    height: 250px;
-    background-color: ivory;
-    float: left;
-}
-.meishi_5
-{
-    width: 260px;
-    height: 250px;
-    background-color: ivory;
-    float: left;
-    margin-left: 110px;
-}
-.meishi_6
-{
-    width: 260px;
-    height: 250px;
-    background-color: ivory;
-    float: right;
+    margin-left: 100px;
+    margin-bottom: 60px;
 }
 .picture_1
 {
-    width: 260px;
-    height: 200px;
+    width: 500px;
+    height: 281.25px;
     overflow: hidden;
 }
 .picture_1 img
 {
-    width: 260px;
-    height: 200px;
+    width: 500px;
+    height: 281.25px;
     transition: 0.5s;
+}
+.bottom_box
+{
+    float: left;
+    height: 40px;
+    width: 100%;
+    background-color: ;
+    margin-top: 40px;
+}
+.bottom_box p
+{
+    text-align: center;
+    line-height: 30px;
 }
 /* .picture_1 img:hover
 {

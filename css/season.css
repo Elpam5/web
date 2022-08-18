@@ -59,8 +59,8 @@ a:hover
 }   
 .box_1
 {
-    width: 1000px;
-    height: 650px;
+    width: 1100px;
+    height: auto;
     background-color:;
     margin: 0 auto;
     margin-top: 15px;
@@ -123,12 +123,25 @@ a:hover
 }
 .picture_1
 {
-    width: 200px;
-    height: 400px;
+    width: 230px;
+    height: 460px;
     background-color: bisque;
     float: left;
     margin-right: 66.6px;
     overflow: hidden;
+}
+.bottom_box
+{
+    float: left;
+    height: 40px;
+    width: 100%;
+    background-color: ;
+    margin-top: 40px;
+}
+.bottom_box p
+{
+    text-align: center;
+    line-height: 30px;
 }
 a:hover p
 {

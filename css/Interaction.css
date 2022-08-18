@@ -138,3 +138,16 @@ li p
     vertical-align: top;
     margin-left: 30px;
 }
+.bottom_box
+{
+    float: left;
+    height: 40px;
+    width: 100%;
+    background-color: ;
+    margin-top: 40px;
+}
+.bottom_box p
+{
+    text-align: center;
+    line-height: 30px;
+}
