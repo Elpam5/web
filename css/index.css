@@ -9,15 +9,11 @@ li
 }
 body
 {
-    background-color:azure; /*网页背景颜色*/
+    background-color:white; /*网页背景颜色*/
 }
 a
 {
     color: black;
-}
-a:hover
-{
-    color: blue;
 }
 .top_box
 {
@@ -28,20 +24,10 @@ a:hover
     width: 100%;
     height: 100%;
 }
-.title_2 /*主标题*/
-{
-    font-family: fzxjl;
-    text-align: center;
-    color:black;
-    padding-top: 10px;
-    font-size: 50px;
-    font-weight:normal;
-}
 .box_1 
 {
     width: 1100px;
     height: auto;
-    background-color:;
     margin: 0 auto;
     margin-top: 15px;
 }
@@ -49,7 +35,6 @@ a:hover
 {
     width: auto;
     height: auto;
-    background-color:;
     margin-top: 10px;
     margin-left: 50px;
     float: left;
@@ -64,8 +49,7 @@ a:hover
     font-family: 宋体;
     color:black;
     font-size: 40px;
-    border-left: 5px solid gray;
-    margin-left: 15px;
+    border-left: 5px solid rgb(223, 76, 155);
     padding-left: 10px;
 }
 .main_picture 
@@ -73,7 +57,6 @@ a:hover
     width: 666px;
     height: 416.25px;
     float: right;
-    background-color: ;
     margin-top: 10px;    
     overflow: hidden;
 }
@@ -87,7 +70,6 @@ a:hover
 {
     width: 666px;
     height: 200px;
-    background-color:;
     float: right;
     margin-top: 30px;
 }
@@ -96,7 +78,6 @@ a:hover
     float: left;
     width: 313px;
     height: 200px;
-    background-color:ivory;
     margin-right: 0px;
     
 }
@@ -122,7 +103,6 @@ a:hover
 {
     width: 360px;
     height: 500px;
-    background-color:;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -130,7 +110,6 @@ a:hover
 {
     width: 354px;
     height: 120px;
-    background-color:ivory;
     margin-bottom: 70px;
 }
 .areachar img
@@ -184,7 +163,6 @@ a:hover
     width: 313px;
     height: 200px;
     overflow: hidden;
-    transition: 0.5s;
 }
 .box_2
 {
@@ -194,9 +172,9 @@ a:hover
 .bottom_box
 {
     float: left;
-    height: 40px;
+    height: 30px;
     width: 100%;
-    background-color: ;
+    background-color:whitesmoke ;
     margin-top: 40px;
 }
 .bottom_box p
@@ -204,35 +182,10 @@ a:hover
     text-align: center;
     line-height: 30px;
 }
-/* .main_picture img:hover
-{
-    transform: scale(1.1);
-} */
 .areachar a:hover img
 {
     transform: scale(1.1);
 }
-/* .areaintro a:hover img
-{
-    transform: scale(1.1);
-}
-.areaintro a:hover .picture_2
-{
-    width: 220px;
-    height: 195px;
-}
-.areaintro a:hover .write
-{
-    width: 220px;
-    height: 5px;
-}
-.write
-{
-    width: 220px;
-    height: 0px;
-    background-color: rgba(255, 192, 1, 0.5);
-    transition: 0.5s;
-} */
 a:hover p
 {
     text-decoration: underline;

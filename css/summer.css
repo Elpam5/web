@@ -1,7 +1,7 @@
 *{margin: 0;padding: 0;}
 @font-face {
     font-family: fzxjl;
-    src: url(font/FZXiJinLJW.TTF);
+    src: url(../font/FZXiJinLJW.TTF);
 }
 li
 {
@@ -9,16 +9,12 @@ li
 }
 body
 {
-    background-color:azure; /*网页背景颜色*/
+    background-color:white; /*网页背景颜色*/
 }
 a
 {
     color: black;
     text-decoration: none;
-}
-a:hover
-{
-    color: blue;
 }
 a:hover p
 {
@@ -27,7 +23,6 @@ a:hover p
 .title_1
 {
     width: 100%;height: 50px;
-    background-color:ivory; 
 }
 .title_1 .ynu
 {
@@ -48,7 +43,6 @@ a:hover p
 {
     height: 30px;
     width: 50px;
-    background-color:;
     float: right;
     margin-top: 9px;
     margin-right: 30px;
@@ -66,7 +60,6 @@ a:hover p
     width: 1100px;
     height: 650px;
     margin: 0 auto;
-    background-color: ;
     margin-top: 15px;
 }
 .title_2 p
@@ -84,7 +77,6 @@ a:hover p
     margin-top: 10px;
     width: 666px;
     height: 999px;
-    background-color: ;
     float: left;
     margin-left: 0px;
 
@@ -97,10 +89,9 @@ a:hover p
 .jingdian_js
 {
     margin-top: 10px;
-    width: 250px;
+    width: 280px;
     height: 570px; /*xianlu的height+jingdian1和jingdian2的height*/
     float: right;
-    background-color:;
     margin-right: 0px;
 }
 .s_title
@@ -111,18 +102,16 @@ a:hover p
 }
 .s_title>p
 {
-    font-family: 宋体;
+    font-family: fzxjl;
     color:black;
-    font-size: 40px;
-    border-left: 5px solid gray;
-    margin-left: 15px;
+    font-size: 30px;
+    border-left: 5px solid rgb(223, 76, 155);
     padding-left: 10px;
 }
 .jingdian_js li
 {
     height: 120px;
-    width: 300px;
-    background-color:ivory;
+    width: 340px;
     margin-bottom: 70px;
     /* height*4+margin-bottom*3=jingidan_js的height */
     /* picture_1和jingdian img的width都要和这个一样 */
@@ -137,10 +126,10 @@ a:hover p
 {
     display: inline-block;
     font-size: 25px;
-    font-family: 宋体;  
+    font-family: fzxjl;  
     vertical-align: top;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .jingdian_js li span1
 {
@@ -169,95 +158,16 @@ a:hover p
     height: 120px;
     overflow: hidden;
 }
-/* .jingdian_js a:hover img
+.jingdian_js a:hover img
 {
     transform: scale(1.1);
-} */
-.jingdian_1
-{
-    width: 300px;
-    height: 190px;
-    float: left;
-    background-color: ivory;
-    margin-top: 30px;
-}
-.jingdian_2
-{
-    width: 300px;
-    height: 190px;
-    float: left;
-    background-color: ivory;
-    margin-top: 30px;
-    margin-left: 50px;
-}
-.picture_2
-{
-    width: 300px;
-    height: 150px;
-    overflow: hidden;
-    transition: 0.5s;
-}
-.picture_2 img
-{
-    width: 300px;
-    height: 150px;
-    transition: 0.5s;
-}
-.jingdian_1:hover img
-{
-    transform: scale(1.1);
-}
-.jingdian_2:hover img
-{
-    transform: scale(1.1);
-}
-.jingdian_1 p
-{
-    text-align: center;
-    font-size: 25px;
-    font-family: 宋体;  
-    margin-top: 5px;
-}
-.jingdian_2 p
-{
-    text-align: center;
-    font-size: 25px;
-    font-family: 宋体;  
-    margin-top: 5px;
-}
-.jingdian_1:hover .picture_2
-{
-    width: 300px;
-    height: 145px;
-}
-.jingdian_1:hover .write
-{
-    width: 300px;
-    height: 5px;
-}
-.jingdian_2:hover .picture_2
-{
-    width: 300px;
-    height: 145px;
-}
-.jingdian_2:hover .write
-{
-    width: 300px;
-    height: 5px;
-}
-.write
-{
-    width: 300px;
-    height: 0px;
-    background-color: rgba(255, 192, 1, 0.5);
-    transition: 0.5s;
-}
+} 
 .bottom_box
 {
     float: left;
-    height: 40px;
+    height: 30px;
     width: 100%;
-    background-color: ;
+    background-color:whitesmoke ;
     margin-top: 40px;
 }
 .bottom_box p

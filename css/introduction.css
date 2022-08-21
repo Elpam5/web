@@ -1,20 +1,20 @@
 *{margin: 0;padding: 0;}
 @font-face {
     font-family: fzxjl;
-    src: url(font/FZXiJinLJW.TTF);
+    src: url(../font/FZXiJinLJW.TTF);
+}
+html,body
+{
+    height: 100%;
 }
 body
 {
-    background-color:azure; /*网页背景颜色*/
+    background-color:white; /*网页背景颜色*/
 }
 a
 {
     color: black;
     text-decoration: none;
-}
-a:hover
-{
-    color: blue;
 }
 a:hover p
 {
@@ -22,8 +22,7 @@ a:hover p
 }
 .title_1
 {
-    width: 100%;height: 50px;
-    background-color:ivory; 
+    width: 100%;height: 50px; 
 }
 .title_1 .ynu
 {
@@ -44,7 +43,6 @@ a:hover p
 {
     height: 30px;
     width: 50px;
-    background-color:;
     float: right;
     margin-top: 9px;
     margin-right: 30px;
@@ -60,9 +58,8 @@ a:hover p
 .box_1
 {
     width: 1100px;
-    height: 650px;
+    height: 88%;
     margin: 0 auto;
-    background-color: ;
 }
 .picture_1
 {
@@ -72,27 +69,91 @@ a:hover p
     overflow: hidden;
     margin-top: 50px;
 }
+.main
+{
+    width: 666px;
+    height: 374.625px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
 .picture_1 img
 {
     width: 666px;
     height: 374.625px;
-    transition: 0.5s;
 }
-/* .picture_1 img:hover
+.picture_box
 {
-    transform: scale(1.1);
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease;
+    /* animation: 16s lunbo infinite; */
+}
+/* @keyframes lunbo
+{
+    0%{transform: translateX(0px);}
+    25%{transform: translateX(-666px);}
+    50%{transform: translateX(-1332px);}
+    75%{transform: translateX(-1998px);}
+    100%{transform: translateX(-2664px);}
 } */
+.on
+{
+    position: absolute;
+    bottom: 5%;
+    right: 45%;
+    display: flex;
+}
+.on li
+{
+    user-select: none;
+    cursor: pointer;
+    list-style: none;
+    margin: 0 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+.on li:hover,.on li.active
+{
+    background-color: #333;
+}
+.main span
+{
+    user-select: none;
+    cursor: pointer;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+}
+.left
+{
+    top: 50%;
+    left: 0;
+}
+.right
+{
+    top: 50%;
+    right: 0;
+}
 .title_2
 {
     width: 350px;
     height: 200px;
     float: right;
     margin-top: 150px;
-    background-color: ivory;
 }
 .title_2 h1
 {
-    font-family:宋体;
+    font-family:fzxjl;
     font-size: 40px;
     text-align: center;
     padding: 4px;
@@ -108,7 +169,7 @@ a:hover p
 .text_1
 {
     width: 1100px;
-    height: 250px;
+    height: auto;
     float: left;
     margin-top: 50px;
     background-color: ivory;
@@ -124,10 +185,12 @@ a:hover p
 .bottom_box
 {
     float: left;
-    height: 40px;
+    height: 30px;
     width: 100%;
-    background-color: ;
+    background-color:whitesmoke ;
     margin-top: 40px;
+    bottom: 0;
+    position: relative;
 }
 .bottom_box p
 {
